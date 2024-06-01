@@ -17,7 +17,7 @@ export const Header = ({ isStakePage = false }) => {
       <div className="header-logo--container">
         <h1 className="logo mb-0">
           <Link to="/">
-            <h1 className="text-[25px] font-bold text-white">lilyfold</h1>
+            <h1 className="text-[25px] font-bold text-white">Fold</h1>
           </Link>
         </h1>
       </div>
