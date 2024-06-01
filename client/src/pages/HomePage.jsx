@@ -16,7 +16,7 @@ import {
 const HomePage = () => {
   return (
     <Layout>
-      <div className="main-wrapper relative z-10 bg-gray-900 py-20">
+      <div className="main-wrapper relative z-12 bg-gray-900 py-28">
         {/* Page Banner */}
         <HomeBanner />
 
@@ -27,20 +27,20 @@ const HomePage = () => {
           <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
             <SectionContainer
               id="features"
-              className="features flex flex-col items-center justify-center bg-gray-800 p-10 rounded-lg shadow-lg"
+              className="features flex flex-col items-center justify-center bg-gray-800 p-12 rounded-lg shadow-lg"
             >
-              <PageTitle
+              {/* <PageTitle
                 className="text-center text-yellow-400 mb-4"
                 type="default"
               >
                 Features
-              </PageTitle>
-              <Content
+              </PageTitle> */}
+              {/* <Content
                 className="text-center text-lg text-gray-300"
                 alignment="center"
               >
-                Hey there! Explore more to know what we got in here!
-              </Content>
+                About Fold
+              </Content> */}
               <ContentImage className="mt-5" />
             </SectionContainer>
           </MotionBTTContainer>

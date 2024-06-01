@@ -7,24 +7,25 @@ const ContentImageData = [
     title: 'Stake FIL and rewards',
     content: 'Got FIL? stake and watch your FIL grow.',
     align: 'right',
-    image: '',
-  },
-  {
-    id: uuid(),
-    title: 'Loans',
-    content:
-      'Got Storage but cant stake? Request for funds to participate in the network !',
-    align: 'left',
-    image: '',
+    image: 'https://res.cloudinary.com/amznpersonal1/image/upload/v1702181247/wfkhye1ejmxqcusezzyl.png',
   },
   {
     id: uuid(),
     title: 'Reputation',
     content:
       'Worried about collateral? Know what the network thinks of you.',
-    align: 'right',
-    image: '',
+    align: 'left',
+    image: 'https://res.cloudinary.com/amznpersonal1/image/upload/v1702181246/ebc4zgnu5bmlmjyjr7ji.png',
   },
+  {
+    id: uuid(),
+    title: 'Loans',
+    content:
+      'Got Storage but cant stake? Request for funds to participate in the network !',
+    align: 'right',
+    image: 'https://res.cloudinary.com/amznpersonal1/image/upload/v1702181247/wfkhye1ejmxqcusezzyl.png',
+  },
+,
 ];
 
 export const ContentImage = () => {
