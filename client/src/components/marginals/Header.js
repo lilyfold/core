@@ -77,3 +77,4 @@ export const Header = ({ isStakePage = false }) => {
   
   );
 };
+export default Header

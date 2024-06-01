@@ -42,7 +42,7 @@ export const HomeBanner = () => {
           </div>
         </MotionBTTContainer>
         {/* Appear Fourth */}
-        <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
+        {/* <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
           <div className="page-banner--image">
             <img
               src=""
@@ -51,7 +51,7 @@ export const HomeBanner = () => {
               className="mx-auto h-[630px] w-[1024px]"
             />
           </div>
-        </MotionBTTContainer>
+        </MotionBTTContainer> */}
       </SectionContainer>
     </SectionContainer>
   );

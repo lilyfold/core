@@ -15,35 +15,40 @@ import {
 
 const HomePage = () => {
   return (
-    <Layout className="">
-      <div className="main-wrapper relative z-10 bg-bgsecondary pb-20 pt-20 ">
-        {/* { Page Banner } */}
+    <Layout>
+      <div className="main-wrapper relative z-10 bg-gray-900 py-20">
+        {/* Page Banner */}
         <HomeBanner />
+
         {/* Components Container */}
         <SectionContainer className="wrap wrap-px flex flex-col items-center justify-center">
-          {/* Features */}
+          
+          {/* Features Section */}
           <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
             <SectionContainer
               id="features"
-              className="features flex flex-col items-center justify-center"
+              className="features flex flex-col items-center justify-center bg-gray-800 p-10 rounded-lg shadow-lg"
             >
               <PageTitle
-                className="mx-auto text-center text-white"
+                className="text-center text-yellow-400 mb-4"
                 type="default"
               >
                 Features
               </PageTitle>
               <Content
-                className="mt-5 text-center !text-[14px] text-secondary-200 opacity-50"
+                className="text-center text-lg text-gray-300"
                 alignment="center"
               >
                 Hey there! Explore more to know what we got in here!
               </Content>
-              <ContentImage />
+              <ContentImage className="mt-5" />
             </SectionContainer>
           </MotionBTTContainer>
-          {/* Card Container Tabs */}
+          
+          {/* Add other sections here */}
+          
         </SectionContainer>
+
       </div>
     </Layout>
   );
