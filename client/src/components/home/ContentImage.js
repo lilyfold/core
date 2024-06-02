@@ -4,11 +4,13 @@ import { v4 as uuid } from 'uuid';
 const ContentImageData = [
   {
     id: uuid(),
-    title: 'Stake FIL and rewards',
-    content: 'Got FIL? stake and watch your FIL grow.',
+    title: 'Loans',
+    content:
+      'Got Storage but cant stake? Request for funds to participate in the network !',
     align: 'right',
     image: 'https://res.cloudinary.com/amznpersonal1/image/upload/v1702181247/wfkhye1ejmxqcusezzyl.png',
   },
+
   {
     id: uuid(),
     title: 'Reputation',
@@ -19,12 +21,11 @@ const ContentImageData = [
   },
   {
     id: uuid(),
-    title: 'Loans',
-    content:
-      'Got Storage but cant stake? Request for funds to participate in the network !',
+    title: 'Stake FIL and rewards',
+    content: 'Got FIL? stake and watch your FIL grow.',
     align: 'right',
     image: 'https://res.cloudinary.com/amznpersonal1/image/upload/v1702181247/wfkhye1ejmxqcusezzyl.png',
-  },
+  }
 ,
 ];
 

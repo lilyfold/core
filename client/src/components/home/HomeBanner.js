@@ -26,7 +26,7 @@ export const HomeBanner = () => {
                 to="/stake"
                 className="mr-3 inline-flex w-full cursor-pointer items-center justify-center gap-3 whitespace-nowrap rounded-lg bg-primary-500 px-8 py-2  text-xl font-semibold text-black transition-colors duration-300 hover:bg-secondary-500 md:w-auto"
               >
-                Deposit FIL and get rewarded !
+                Deposit FIL and earn yields!
                 <FontAwesomeIcon icon={faArrowRight} />
               </Link>
             </div>
